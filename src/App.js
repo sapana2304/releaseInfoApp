@@ -7,17 +7,7 @@ import PutData from './components/PutData';
 
 function App() {
 
-  const addDataToDynamoDB = async () => {
-    const userData = {
-      id:1,
-      name:"Faisal",
-      age:"170"
-    }
-    
-    await PutData('users' , userData)
-  }
-  
-  return (
+ return (
     <div className="App">
       
        <Upload></Upload>
